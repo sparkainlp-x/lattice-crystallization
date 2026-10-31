@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: lattice-crystallization
+version: 0.1.0
+message: If you use this software, please cite it as below.
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    affiliation: Spark AI NLP, Fredericton, New Brunswick, Canada
+    orcid: https://orcid.org/0009-0000-9778-5374
+license: AGPL-3.0-only
+repository-code: https://github.com/sparkainlp-x/lattice-crystallization
+abstract: >-
+  Synthetic experiment applying a pattern-specific lateral score to
+  streaming-PCA (crystallized) patterns on a 13x12 grid, with a
+  held-out frozen gate comparing overlap-only against a combined
+  overlap+lateral score under seam-shift and row-slip corruption.
+  Classical toy only; no biology, medical, quantum-hardware, brain,
+  or consciousness claim.
+keywords:
+  - synthetic
+  - streaming-PCA
+  - lateral-score
+  - held-out-evaluation
+  - refusal-gate
